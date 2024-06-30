@@ -11,7 +11,7 @@ const About = () => {
       ></div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 py-8 mt-20">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 py-8 ">
         <div className="bg-purple-600 bg-opacity-50 rounded-lg shadow-lg text-white p-8">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold leading-tight">About Me</h2>
