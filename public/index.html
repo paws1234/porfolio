@@ -1,30 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
-  
+
+  <title>Reyvand Jasper Medrano - Portfolio</title>
+
+  <!-- Meta Description for SEO -->
+  <meta name="description"
+    content="Welcome to the portfolio of Reyvand Jasper Medrano, a skilled web developer based in Cebu City. Explore my projects and skills in web development.">
+
+  <!-- Open Graph Meta Tags for Social Media Sharing -->
+  <meta property="og:title" content="Reyvand Jasper Medrano - Portfolio">
+  <meta property="og:description"
+    content="Welcome to the portfolio of Reyvand Jasper Medrano, a skilled web developer based in Cebu City. Explore my projects and skills in web development.">
+  <meta property="og:image" content="URL_to_your_image.jpg"> <!-- Replace with your image URL -->
+  <meta property="og:url" content="https://porfolio-5.onrender.com"> <!-- Replace with your portfolio URL -->
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Reyvand Jasper Medrano - Portfolio">
+  <meta name="twitter:description"
+    content="Welcome to the portfolio of Reyvand Jasper Medrano, a skilled web developer based in Cebu City. Explore my projects and skills in web development.">
+  <meta name="twitter:image" content="URL_to_your_image.jpg"> <!-- Replace with your image URL -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
   <style>
-    html, body {
+    html,
+    body {
       height: 100%;
       margin: 0;
       padding: 0;
     }
+
     #root {
       height: 100%;
     }
-    @media (min-width: 1024px) { /* Adjust this breakpoint as needed */
+
+    @media (min-width: 1024px) {
       #root {
-        overflow-y: hidden; /* Disable vertical scroll on larger screens */
+        overflow-y: hidden;
       }
     }
   </style>
 </head>
+
 <body class="overflow-x-hidden">
   <div id="root" class="min-h-screen lg:h-screen lg:overflow-hidden">
     <!-- Your existing content will be rendered here by React -->
   </div>
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Reyvand Jasper Medrano",
+      "url": "https://porfolio-5.onrender.com",  <!-- Replace with your portfolio URL -->
+      "sameAs": [
+        "https://www.linkedin.com/in/paws-medz-0ba977223/", <!-- Replace with your LinkedIn profile URL -->
+        "https://github.com/paws1234" <!-- Replace with your GitHub profile URL -->
+      ],
+      "jobTitle": "Web Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cebu City",
+        "addressCountry": "Philippines"
+      }
+    }
+  </script>
 </body>
+
 </html>
